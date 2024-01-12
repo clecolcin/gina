@@ -94,6 +94,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "gina:build:production",
+              "serveTarget": "gina:serve:production"
+            },
+            "development": {
+              "buildTarget": "gina:build:development",
+              "serveTarget": "gina:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

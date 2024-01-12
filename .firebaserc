@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "gina0929": {
+      "hosting": {
+        "gina": [
+          "gina0929"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "gina0929"
+  }
+}
