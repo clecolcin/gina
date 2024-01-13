@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "gh": "ng build --output-path docs --base-href /gina/browser/ -c production",
-    "fire": "ng build --output-path firebase_website -c production"
+    "fire": "ng build --output-path firebase_website -c production && firebase deploy",
+    "fire-deploy": "firebase deploy"
   },
   "private": true,
   "dependencies": {

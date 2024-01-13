@@ -10,5 +10,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'Git Hub Pages Hosting';
+  title = 'Git Hub Pages Hosting 01/12/24';
 }
